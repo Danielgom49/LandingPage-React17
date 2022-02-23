@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Reto1-Sprint3/static/css/main.c953ec85.css",
+    "main.js": "/Reto1-Sprint3/static/js/main.411311bd.js",
+    "index.html": "/Reto1-Sprint3/index.html",
+    "main.c953ec85.css.map": "/Reto1-Sprint3/static/css/main.c953ec85.css.map",
+    "main.411311bd.js.map": "/Reto1-Sprint3/static/js/main.411311bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c953ec85.css",
+    "static/js/main.411311bd.js"
+  ]
+}
