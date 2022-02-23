@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const BackgroundIntro = styled.div`
+font-family: 'Raleway', sans-serif;
+
     background-color:hsl(217, 28%, 15%);
     li{
         color:hsl(0, 0%, 100%);
@@ -22,6 +24,8 @@ export const BackgroundIntro = styled.div`
 `
 
 export const BgEmails = styled.div`
+font-family: 'Raleway', sans-serif;
+
     background-color:hsl(217, 28%, 15%);
     @media screen and (max-width: 768px) {
         margin: 0px;
@@ -64,6 +68,8 @@ export const BgEmails = styled.div`
 `
 
 export const BackgroundImage = styled.div`
+font-family: 'Raleway', sans-serif;
+
     background-color:hsl(217, 28%, 15%);
     background-image: url('https://res.cloudinary.com/dvcxyjkko/image/upload/v1645575969/proyecto-sprint3-reto1/bg-curvy-desktop_d46mlt.svg');
     background-repeat: no-repeat;
@@ -92,6 +98,8 @@ export const BackgroundImage = styled.div`
 
 
 export const Background = styled.div`
+font-family: 'Raleway', sans-serif;
+
     background-color: hsl(218, 28%, 13%);
     @media screen and (max-width: 768px) {
         width: 375px;
@@ -181,6 +189,8 @@ export const Background = styled.div`
 `
 
 export const Button1 = styled.button`
+font-family: 'Raleway', sans-serif;
+
     background: -prefix-linear-gradient(top, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     background: linear-gradient(to bottom, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     &:hover{
@@ -189,6 +199,8 @@ export const Button1 = styled.button`
 `
 
 export const Link = styled.a`
+font-family: 'Raleway', sans-serif;
+
     color: hsl(176, 68%, 64%);
     border-bottom: 2px solid hsl(176, 68%, 64%);
     &:hover{
@@ -198,11 +210,15 @@ export const Link = styled.a`
 `
 
 export const Card = styled.div`
+font-family: 'Raleway', sans-serif;
+
     background-color: hsl(219, 30%, 18%);
     border-radius: 5px;
 `
 
 export const BgFooter = styled.div`
+font-family: 'Raleway', sans-serif;
+
     background-color: hsl(216, 53%, 9%);
 
     @media screen and (max-width: 768px) {
@@ -242,6 +258,8 @@ export const BgFooter = styled.div`
 `
 
 export const Social = styled.div`
+font-family: 'Raleway', sans-serif;
+
     &:hover{
         color:hsl(176, 68%, 64%);
         border-color:hsl(176, 68%, 64%);
@@ -250,5 +268,7 @@ export const Social = styled.div`
 `
 
 export const Error = styled.div`
+font-family: 'Raleway', sans-serif;
+
     color: hsl(0, 100%, 63%);
 `
