@@ -14,7 +14,7 @@ export default class Footer extends Component {
                 <div className="mb-5">
                     <img src="https://res.cloudinary.com/dvcxyjkko/image/upload/v1645536914/proyecto-sprint3-reto1/logo_ti5twh.svg" alt="logo" />
                 </div>
-                <div className="flex flex-row justify-between items-start">
+                <div className="flex flex-row justify-between items-start footer">
                     <div>
                         <div className="flex flex-row justify-around items-start">
                             <HiLocationMarker className="text-xl" />
@@ -33,7 +33,7 @@ export default class Footer extends Component {
                         </div>
                     </div>
 
-                    <div className="flex flex-row justify-around items-start">
+                    <div className="flex flex-row justify-around items-start list">
                         <ul className="mx-5">
                             <li className="py-2 hover:font-bold"><a href="/">About Us</a></li>
                             <li className="py-2 hover:font-bold"><a href="/">Jobs</a></li>
@@ -47,7 +47,7 @@ export default class Footer extends Component {
                         </ul>
                     </div>
 
-                    <div className="flex flex-row">
+                    <div className="flex flex-row social">
                         <Social className="text-sm border-solid border-2 border-white rounded-full p-2 m-2">
                             <a href="/"><RiFacebookFill /></a>
                         </Social>
